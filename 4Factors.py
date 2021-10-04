@@ -12,6 +12,11 @@ Created on Sun Jan 03 19:53:22 2021
 @author: Administrator
 """
 
+"""
+This script finds the highest possible product by multiplying 4 
+factors either found horizontally, vertically, diagonally or 
+anti-diagonally in a matrix of two digit numbers.
+"""
 import numpy as np
 
 def scan(string,scanmat,fillmat,faclist,horizontal,vertical,nfacs,pattern):
